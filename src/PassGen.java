@@ -18,7 +18,6 @@ public class PassGen {
         genNum(numN);
     }
     private void genChar(int size){
-        if(size==0) return;
         for(int x =0; x< size; x++){
             Password.add(charList[sr.nextInt(charList.length)]);
         }
